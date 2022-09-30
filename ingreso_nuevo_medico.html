@@ -129,8 +129,8 @@
 
     <!-- Contenido -->
     <div class="input mb-2" >
-    <section>
-        <form method="post" class="row g-3">
+    <section name="principal" id="principal">
+        <form method="post" class="row g-3" name="registro" id="formulario">
             <div class="col-md-3">
                 <label for="nombres" class="form-label">Nombres</label>
                 <input type="text" class="form-control" id="nombres" name="nombres">
@@ -169,6 +169,15 @@
             <div class="col-md-2">
                 <label for="especialidad" class="form-label">Especialidad</label>
                 <input type="text" class="form-control" id="especialidad" name="especialidad">
+            </div>
+
+            <div class="col-md-3">
+                <label for="idPaciente" class="form-label">Documento</label>
+                <input type="number" class="form-control" id="idPaciente" name="idPaciente">
+            </div>
+
+            <div class="" style="margin-top: 40px; width: 80px; height: 60px;">
+                <input type="submit" value="Enviar" class="btn btn-info btn-icon-split"/>
             </div>
         </form>
 
@@ -217,13 +226,13 @@
 
 <br>
 
-        <div class="my-2"></div>
+        <!-- <div class="my-2"></div>
             <a href="#" class="btn btn-info btn-icon-split">
                 <span class="icon text-white-50">
                     <i class="fas fa-save"></i>
                     </span>
                 <span class="text">Grabar</span>
-            </a> 
+            </a>  -->
 
 
     </div>
