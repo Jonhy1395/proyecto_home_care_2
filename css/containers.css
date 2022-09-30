@@ -1,0 +1,7 @@
+.container1 {
+    width: 700px;
+}
+
+.container2 {
+    @include make-container(width: 960px;);
+  }
