@@ -1,5 +1,5 @@
 
-const newMedicoUrl = 'http://mintic2022-ciclo3-grupo53-e4.herokuapp.com/newMedico'
+const newMedicoUrl = 'http://mintic2022-ciclo3-grupo53-e4.herokuapp.com/newMedico';
 //const newPacienteUrl = 'http://127.0.0.1:8000/newMedico';
 
 function collectData(evt){
@@ -25,7 +25,7 @@ function collectData(evt){
         telefono: telefono,
         registroMedico: registroMedico,
         especialidad: especialidad,
-        idPaciente: idPaciente
+        pacienteID: idPaciente
     }
 
     console.log(medico);
