@@ -128,15 +128,59 @@
     <h4>Crear Médico</h4>
 
     <!-- Contenido -->
-    <div class="input mb-2">
+    <div class="input mb-2" >
+    <section>
+        <form method="post" class="row g-3">
+            <div class="col-md-3">
+                <label for="nombres" class="form-label">Nombres</label>
+                <input type="text" class="form-control" id="nombres" name="nombres">
+            </div>
 
-        <form class="row g-3">
+            <div class="col-md-3">
+                <label for="apellidos" class="form-label">Apellidos</label>
+                <input type="text" class="form-control" id="apellidos" name="apellido">
+            </div>
+    
+            <div class="col-md-3">
+                <label for="id" class="form-label">Documento</label>
+                <input type="number" class="form-control" id="id" name="id">
+            </div>
+
+            <div class="col-md-2">
+                <label for="telefono" class="form-label">Telefono</label>
+                <input type="number" class="form-control" id="telefono" name="telefono">
+            </div>
+
+            <div class="col-md-2">
+                <label for="genero" class="form-label">Genero</label>
+                <!-- <input type="text" class="form-control" id="genero" name="genero"> -->
+                <select name="genero" id="genero" class="form-control">
+                    <option value="Seleccione una opcion">Escoja una opcion</option>
+                    <option value="Masculino">Masculino</option>
+                    <option value="Femenino">Femenino</option>
+                </select>
+            </div>
+
+            <div class="col-md-2">
+                <label for="registroMedico" class="form-label">Registro Medico</label>
+                <input type="text" class="form-control" id="registroMedico" name="registroMedico">
+            </div>
+
+            <div class="col-md-2">
+                <label for="especialidad" class="form-label">Especialidad</label>
+                <input type="text" class="form-control" id="especialidad" name="especialidad">
+            </div>
+        </form>
+
+
+<!-- --------------------------------------------------------------------------------------------------------- -->
+        <!-- <form class="row g-3">
             <div class="col-md-3">
                 <label for="inputEmail4" class="form-label">Nombres</label>
                 <input type="email" class="form-control" id="inputEmail4">
-            </div>
+            </div> -->
 
-        <form class="row g-3">
+        <!-- <form class="row g-3">
             <div class="col-md-3">
                 <label for="inputEmail4" class="form-label">Apellidos</label>
                 <input type="email" class="form-control" id="inputEmail4">
@@ -166,7 +210,7 @@
         <div class="col-md-2">
             <label for="inputZip" class="form-label">Especialidad</label>
             <input type="text" class="form-control" id="inputZip">
-        </div>
+        </div> -->
 
           
 </div>
