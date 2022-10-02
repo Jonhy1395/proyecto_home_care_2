@@ -6,6 +6,8 @@ btn.addEventListener('click', getMedicos);
 let medicos = [];
 
 function getMedicos (){
+  const info = document.getElementById("cuerpoTabla");
+  info.innerHTML = "";
   fetch(getMedico)
     .then(response => {
       if (response.ok)
@@ -22,6 +24,7 @@ function getMedicos (){
       console.error("ERROR: ", err.message);
       handleError();
     });
+
 }
 
 function handleMedico() {

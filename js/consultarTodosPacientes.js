@@ -6,6 +6,8 @@ btn.addEventListener('click',getPaciente);
 let pacientes = [];
 
 function getPaciente (){
+  const info = document.getElementById("cuerpoTabla");
+  info.innerHTML = "";
   fetch(getCostumer)
     .then(response => {
       if (response.ok)

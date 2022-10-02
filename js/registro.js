@@ -72,7 +72,7 @@ function sendData (data){
   function handleSuccess(){
     document.getElementById("formulario").remove();
     const messeage = document.createElement("p");
-    messeage.innerHTML = "Cliente Creado de manera exitosa.";
+    messeage.innerHTML = "Paciente Creado de manera exitosa.";
     const info = document.getElementById("principal");
     info.appendChild(messeage);
   }
@@ -80,7 +80,7 @@ function sendData (data){
   function handleError() {
     document.getElementById("principal").remove();
     const messeage = document.createElement("p");
-    messeage.innerHTML = "Cliente no pudo ser creado.";
+    messeage.innerHTML = "Paciente no pudo ser creado.";
     const info = document.getElementById("principal");
     info.appendChild(messeage);
   }

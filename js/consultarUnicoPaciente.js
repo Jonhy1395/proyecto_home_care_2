@@ -16,7 +16,8 @@ function conseguirNumero(){
     console.log(num);
     
     function getOnePaciente (id){
-        
+        const info = document.getElementById("cuerpoTabla");
+        info.innerHTML = "";
         fetch(getOnePacienteUrl + id)
           .then(response => {
             if (response.ok)
